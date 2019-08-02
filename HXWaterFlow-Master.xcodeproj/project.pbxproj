@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44DE619683AA7E433E8A3B2B /* libPods-HXWaterFlow-MasterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A93C11F2DCC3D3F39A927BC5 /* libPods-HXWaterFlow-MasterTests.a */; };
+		90C2B93F73CC69D766F877F6 /* libPods-HXWaterFlow-Master.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D424183589FE5CCE58F30BA5 /* libPods-HXWaterFlow-Master.a */; };
+		CB07F05122F331BB0070F05F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F05022F331BB0070F05F /* AppDelegate.m */; };
+		CB07F05422F331BB0070F05F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F05322F331BB0070F05F /* ViewController.m */; };
+		CB07F05722F331BB0070F05F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB07F05522F331BB0070F05F /* Main.storyboard */; };
+		CB07F05922F331BC0070F05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB07F05822F331BC0070F05F /* Assets.xcassets */; };
+		CB07F05C22F331BC0070F05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB07F05A22F331BC0070F05F /* LaunchScreen.storyboard */; };
+		CB07F05F22F331BC0070F05F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F05E22F331BC0070F05F /* main.m */; };
+		CB07F06922F331BC0070F05F /* HXWaterFlow_MasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F06822F331BC0070F05F /* HXWaterFlow_MasterTests.m */; };
+		CB07F07422F331BC0070F05F /* HXWaterFlow_MasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F07322F331BC0070F05F /* HXWaterFlow_MasterUITests.m */; };
+		CB07F09D22F4671D0070F05F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F09922F4671C0070F05F /* MainViewController.m */; };
+		CB07F09E22F4671D0070F05F /* HXShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F09A22F4671C0070F05F /* HXShopCell.m */; };
+		CB07F09F22F4671D0070F05F /* HXShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F09C22F4671D0070F05F /* HXShopModel.m */; };
+		CB07F0A122F467410070F05F /* HMWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F0A022F467400070F05F /* HMWaterflowLayout.m */; };
+		CB07F0A322F469C40070F05F /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB07F0A222F469C40070F05F /* data.plist */; };
+		CB07F0A622F46C760070F05F /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB07F0A422F46C730070F05F /* NSArray+Extension.m */; };
+		F1EC87908B1B4D47A8A6B070 /* libPods-HXWaterFlow-MasterUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 475D468D074D906EAA8D2099 /* libPods-HXWaterFlow-MasterUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB07F06522F331BC0070F05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB07F04422F331BB0070F05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB07F04B22F331BB0070F05F;
+			remoteInfo = "HXWaterFlow-Master";
+		};
+		CB07F07022F331BC0070F05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB07F04422F331BB0070F05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB07F04B22F331BB0070F05F;
+			remoteInfo = "HXWaterFlow-Master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		315A33F6F3CCAF3F57248D18 /* Pods-HXWaterFlow-MasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWaterFlow-MasterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXWaterFlow-MasterTests/Pods-HXWaterFlow-MasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DE386F94E2B81D0B14A723F /* Pods-HXWaterFlow-Master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWaterFlow-Master.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXWaterFlow-Master/Pods-HXWaterFlow-Master.debug.xcconfig"; sourceTree = "<group>"; };
+		475D468D074D906EAA8D2099 /* libPods-HXWaterFlow-MasterUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXWaterFlow-MasterUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C82F8219D83BBB3CF8A98D /* Pods-HXWaterFlow-Master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWaterFlow-Master.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXWaterFlow-Master/Pods-HXWaterFlow-Master.release.xcconfig"; sourceTree = "<group>"; };
+		6A60CA08DEFE20181FA34FEA /* Pods-HXWaterFlow-MasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWaterFlow-MasterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXWaterFlow-MasterUITests/Pods-HXWaterFlow-MasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76405C70408D945E37B2E0CB /* Pods-HXWaterFlow-MasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWaterFlow-MasterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXWaterFlow-MasterTests/Pods-HXWaterFlow-MasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A651F430F6A32636F0689531 /* Pods-HXWaterFlow-MasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWaterFlow-MasterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXWaterFlow-MasterUITests/Pods-HXWaterFlow-MasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A93C11F2DCC3D3F39A927BC5 /* libPods-HXWaterFlow-MasterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXWaterFlow-MasterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB07F04C22F331BB0070F05F /* HXWaterFlow-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HXWaterFlow-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB07F04F22F331BB0070F05F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB07F05022F331BB0070F05F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB07F05222F331BB0070F05F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB07F05322F331BB0070F05F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB07F05622F331BB0070F05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB07F05822F331BC0070F05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB07F05B22F331BC0070F05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB07F05D22F331BC0070F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB07F05E22F331BC0070F05F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB07F06422F331BC0070F05F /* HXWaterFlow-MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HXWaterFlow-MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB07F06822F331BC0070F05F /* HXWaterFlow_MasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXWaterFlow_MasterTests.m; sourceTree = "<group>"; };
+		CB07F06A22F331BC0070F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB07F06F22F331BC0070F05F /* HXWaterFlow-MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HXWaterFlow-MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB07F07322F331BC0070F05F /* HXWaterFlow_MasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXWaterFlow_MasterUITests.m; sourceTree = "<group>"; };
+		CB07F07522F331BC0070F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB07F08222F333620070F05F /* HXPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXPrefixHeader.h; sourceTree = "<group>"; };
+		CB07F08322F333C50070F05F /* HXBaseDefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXBaseDefineHeader.h; sourceTree = "<group>"; };
+		CB07F08422F333D10070F05F /* HXColorHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXColorHeader.h; sourceTree = "<group>"; };
+		CB07F09622F4671C0070F05F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CB07F09722F4671C0070F05F /* HMWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWaterflowLayout.h; sourceTree = "<group>"; };
+		CB07F09822F4671C0070F05F /* HXShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXShopCell.h; sourceTree = "<group>"; };
+		CB07F09922F4671C0070F05F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CB07F09A22F4671C0070F05F /* HXShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXShopCell.m; sourceTree = "<group>"; };
+		CB07F09B22F4671D0070F05F /* HXShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXShopModel.h; sourceTree = "<group>"; };
+		CB07F09C22F4671D0070F05F /* HXShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXShopModel.m; sourceTree = "<group>"; };
+		CB07F0A022F467400070F05F /* HMWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWaterflowLayout.m; sourceTree = "<group>"; };
+		CB07F0A222F469C40070F05F /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		CB07F0A422F46C730070F05F /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		CB07F0A522F46C750070F05F /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		D424183589FE5CCE58F30BA5 /* libPods-HXWaterFlow-Master.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXWaterFlow-Master.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB07F04922F331BB0070F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C2B93F73CC69D766F877F6 /* libPods-HXWaterFlow-Master.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F06122F331BC0070F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE619683AA7E433E8A3B2B /* libPods-HXWaterFlow-MasterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F06C22F331BC0070F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EC87908B1B4D47A8A6B070 /* libPods-HXWaterFlow-MasterUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC7CC412E26865F249BF62F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D424183589FE5CCE58F30BA5 /* libPods-HXWaterFlow-Master.a */,
+				A93C11F2DCC3D3F39A927BC5 /* libPods-HXWaterFlow-MasterTests.a */,
+				475D468D074D906EAA8D2099 /* libPods-HXWaterFlow-MasterUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB07F04322F331BB0070F05F = {
+			isa = PBXGroup;
+			children = (
+				CB07F04E22F331BB0070F05F /* HXWaterFlow-Master */,
+				CB07F06722F331BC0070F05F /* HXWaterFlow-MasterTests */,
+				CB07F07222F331BC0070F05F /* HXWaterFlow-MasterUITests */,
+				CB07F04D22F331BB0070F05F /* Products */,
+				D811E86C7FD8D4DF5CA5B3F7 /* Pods */,
+				CAC7CC412E26865F249BF62F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB07F04D22F331BB0070F05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F04C22F331BB0070F05F /* HXWaterFlow-Master.app */,
+				CB07F06422F331BC0070F05F /* HXWaterFlow-MasterTests.xctest */,
+				CB07F06F22F331BC0070F05F /* HXWaterFlow-MasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB07F04E22F331BB0070F05F /* HXWaterFlow-Master */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F08722F3342D0070F05F /* Resouce */,
+				CB07F08622F333FE0070F05F /* Main */,
+				CB07F08522F333F60070F05F /* Category */,
+				CB07F08122F333380070F05F /* AppContainer */,
+				CB07F04F22F331BB0070F05F /* AppDelegate.h */,
+				CB07F05022F331BB0070F05F /* AppDelegate.m */,
+				CB07F05222F331BB0070F05F /* ViewController.h */,
+				CB07F05322F331BB0070F05F /* ViewController.m */,
+				CB07F05522F331BB0070F05F /* Main.storyboard */,
+				CB07F05822F331BC0070F05F /* Assets.xcassets */,
+				CB07F05A22F331BC0070F05F /* LaunchScreen.storyboard */,
+				CB07F05D22F331BC0070F05F /* Info.plist */,
+				CB07F05E22F331BC0070F05F /* main.m */,
+			);
+			path = "HXWaterFlow-Master";
+			sourceTree = "<group>";
+		};
+		CB07F06722F331BC0070F05F /* HXWaterFlow-MasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F06822F331BC0070F05F /* HXWaterFlow_MasterTests.m */,
+				CB07F06A22F331BC0070F05F /* Info.plist */,
+			);
+			path = "HXWaterFlow-MasterTests";
+			sourceTree = "<group>";
+		};
+		CB07F07222F331BC0070F05F /* HXWaterFlow-MasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F07322F331BC0070F05F /* HXWaterFlow_MasterUITests.m */,
+				CB07F07522F331BC0070F05F /* Info.plist */,
+			);
+			path = "HXWaterFlow-MasterUITests";
+			sourceTree = "<group>";
+		};
+		CB07F08122F333380070F05F /* AppContainer */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F08222F333620070F05F /* HXPrefixHeader.h */,
+				CB07F08322F333C50070F05F /* HXBaseDefineHeader.h */,
+				CB07F08422F333D10070F05F /* HXColorHeader.h */,
+			);
+			path = AppContainer;
+			sourceTree = "<group>";
+		};
+		CB07F08522F333F60070F05F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F0A522F46C750070F05F /* NSArray+Extension.h */,
+				CB07F0A422F46C730070F05F /* NSArray+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CB07F08622F333FE0070F05F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F09722F4671C0070F05F /* HMWaterflowLayout.h */,
+				CB07F0A022F467400070F05F /* HMWaterflowLayout.m */,
+				CB07F09822F4671C0070F05F /* HXShopCell.h */,
+				CB07F09A22F4671C0070F05F /* HXShopCell.m */,
+				CB07F09B22F4671D0070F05F /* HXShopModel.h */,
+				CB07F09C22F4671D0070F05F /* HXShopModel.m */,
+				CB07F09622F4671C0070F05F /* MainViewController.h */,
+				CB07F09922F4671C0070F05F /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CB07F08722F3342D0070F05F /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				CB07F0A222F469C40070F05F /* data.plist */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		D811E86C7FD8D4DF5CA5B3F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DE386F94E2B81D0B14A723F /* Pods-HXWaterFlow-Master.debug.xcconfig */,
+				61C82F8219D83BBB3CF8A98D /* Pods-HXWaterFlow-Master.release.xcconfig */,
+				76405C70408D945E37B2E0CB /* Pods-HXWaterFlow-MasterTests.debug.xcconfig */,
+				315A33F6F3CCAF3F57248D18 /* Pods-HXWaterFlow-MasterTests.release.xcconfig */,
+				6A60CA08DEFE20181FA34FEA /* Pods-HXWaterFlow-MasterUITests.debug.xcconfig */,
+				A651F430F6A32636F0689531 /* Pods-HXWaterFlow-MasterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB07F04B22F331BB0070F05F /* HXWaterFlow-Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB07F07822F331BC0070F05F /* Build configuration list for PBXNativeTarget "HXWaterFlow-Master" */;
+			buildPhases = (
+				57FBCD8CB58811A0072E69BC /* [CP] Check Pods Manifest.lock */,
+				CB07F04822F331BB0070F05F /* Sources */,
+				CB07F04922F331BB0070F05F /* Frameworks */,
+				CB07F04A22F331BB0070F05F /* Resources */,
+				48B10D08214B60A9FF03A443 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HXWaterFlow-Master";
+			productName = "HXWaterFlow-Master";
+			productReference = CB07F04C22F331BB0070F05F /* HXWaterFlow-Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB07F06322F331BC0070F05F /* HXWaterFlow-MasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB07F07B22F331BC0070F05F /* Build configuration list for PBXNativeTarget "HXWaterFlow-MasterTests" */;
+			buildPhases = (
+				437A965712B11D0FFABEA115 /* [CP] Check Pods Manifest.lock */,
+				CB07F06022F331BC0070F05F /* Sources */,
+				CB07F06122F331BC0070F05F /* Frameworks */,
+				CB07F06222F331BC0070F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB07F06622F331BC0070F05F /* PBXTargetDependency */,
+			);
+			name = "HXWaterFlow-MasterTests";
+			productName = "HXWaterFlow-MasterTests";
+			productReference = CB07F06422F331BC0070F05F /* HXWaterFlow-MasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB07F06E22F331BC0070F05F /* HXWaterFlow-MasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB07F07E22F331BC0070F05F /* Build configuration list for PBXNativeTarget "HXWaterFlow-MasterUITests" */;
+			buildPhases = (
+				98A4024F05BB36612F95D66A /* [CP] Check Pods Manifest.lock */,
+				CB07F06B22F331BC0070F05F /* Sources */,
+				CB07F06C22F331BC0070F05F /* Frameworks */,
+				CB07F06D22F331BC0070F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB07F07122F331BC0070F05F /* PBXTargetDependency */,
+			);
+			name = "HXWaterFlow-MasterUITests";
+			productName = "HXWaterFlow-MasterUITests";
+			productReference = CB07F06F22F331BC0070F05F /* HXWaterFlow-MasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB07F04422F331BB0070F05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = hexuan;
+				TargetAttributes = {
+					CB07F04B22F331BB0070F05F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CB07F06322F331BC0070F05F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CB07F04B22F331BB0070F05F;
+					};
+					CB07F06E22F331BC0070F05F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CB07F04B22F331BB0070F05F;
+					};
+				};
+			};
+			buildConfigurationList = CB07F04722F331BB0070F05F /* Build configuration list for PBXProject "HXWaterFlow-Master" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB07F04322F331BB0070F05F;
+			productRefGroup = CB07F04D22F331BB0070F05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB07F04B22F331BB0070F05F /* HXWaterFlow-Master */,
+				CB07F06322F331BC0070F05F /* HXWaterFlow-MasterTests */,
+				CB07F06E22F331BC0070F05F /* HXWaterFlow-MasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB07F04A22F331BB0070F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB07F05C22F331BC0070F05F /* LaunchScreen.storyboard in Resources */,
+				CB07F05922F331BC0070F05F /* Assets.xcassets in Resources */,
+				CB07F0A322F469C40070F05F /* data.plist in Resources */,
+				CB07F05722F331BB0070F05F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F06222F331BC0070F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F06D22F331BC0070F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		437A965712B11D0FFABEA115 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXWaterFlow-MasterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B10D08214B60A9FF03A443 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HXWaterFlow-Master/Pods-HXWaterFlow-Master-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXWaterFlow-Master/Pods-HXWaterFlow-Master-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57FBCD8CB58811A0072E69BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXWaterFlow-Master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A4024F05BB36612F95D66A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXWaterFlow-MasterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB07F04822F331BB0070F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB07F05422F331BB0070F05F /* ViewController.m in Sources */,
+				CB07F09F22F4671D0070F05F /* HXShopModel.m in Sources */,
+				CB07F05F22F331BC0070F05F /* main.m in Sources */,
+				CB07F09E22F4671D0070F05F /* HXShopCell.m in Sources */,
+				CB07F05122F331BB0070F05F /* AppDelegate.m in Sources */,
+				CB07F0A122F467410070F05F /* HMWaterflowLayout.m in Sources */,
+				CB07F0A622F46C760070F05F /* NSArray+Extension.m in Sources */,
+				CB07F09D22F4671D0070F05F /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F06022F331BC0070F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB07F06922F331BC0070F05F /* HXWaterFlow_MasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07F06B22F331BC0070F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB07F07422F331BC0070F05F /* HXWaterFlow_MasterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB07F06622F331BC0070F05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB07F04B22F331BB0070F05F /* HXWaterFlow-Master */;
+			targetProxy = CB07F06522F331BC0070F05F /* PBXContainerItemProxy */;
+		};
+		CB07F07122F331BC0070F05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB07F04B22F331BB0070F05F /* HXWaterFlow-Master */;
+			targetProxy = CB07F07022F331BC0070F05F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB07F05522F331BB0070F05F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB07F05622F331BB0070F05F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB07F05A22F331BC0070F05F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB07F05B22F331BC0070F05F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB07F07622F331BC0070F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB07F07722F331BC0070F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB07F07922F331BC0070F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE386F94E2B81D0B14A723F /* Pods-HXWaterFlow-Master.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXWaterFlow-Master/AppContainer/HXPrefixHeader.h";
+				INFOPLIST_FILE = "HXWaterFlow-Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXWaterFlow-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB07F07A22F331BC0070F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C82F8219D83BBB3CF8A98D /* Pods-HXWaterFlow-Master.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXWaterFlow-Master/AppContainer/HXPrefixHeader.h";
+				INFOPLIST_FILE = "HXWaterFlow-Master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXWaterFlow-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB07F07C22F331BC0070F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76405C70408D945E37B2E0CB /* Pods-HXWaterFlow-MasterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				INFOPLIST_FILE = "HXWaterFlow-MasterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXWaterFlow-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXWaterFlow-Master.app/HXWaterFlow-Master";
+			};
+			name = Debug;
+		};
+		CB07F07D22F331BC0070F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315A33F6F3CCAF3F57248D18 /* Pods-HXWaterFlow-MasterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				INFOPLIST_FILE = "HXWaterFlow-MasterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXWaterFlow-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXWaterFlow-Master.app/HXWaterFlow-Master";
+			};
+			name = Release;
+		};
+		CB07F07F22F331BC0070F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A60CA08DEFE20181FA34FEA /* Pods-HXWaterFlow-MasterUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				INFOPLIST_FILE = "HXWaterFlow-MasterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXWaterFlow-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HXWaterFlow-Master";
+			};
+			name = Debug;
+		};
+		CB07F08022F331BC0070F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A651F430F6A32636F0689531 /* Pods-HXWaterFlow-MasterUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKK4D9L7SV;
+				INFOPLIST_FILE = "HXWaterFlow-MasterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdww.HXWaterFlow-MasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HXWaterFlow-Master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB07F04722F331BB0070F05F /* Build configuration list for PBXProject "HXWaterFlow-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB07F07622F331BC0070F05F /* Debug */,
+				CB07F07722F331BC0070F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB07F07822F331BC0070F05F /* Build configuration list for PBXNativeTarget "HXWaterFlow-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB07F07922F331BC0070F05F /* Debug */,
+				CB07F07A22F331BC0070F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB07F07B22F331BC0070F05F /* Build configuration list for PBXNativeTarget "HXWaterFlow-MasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB07F07C22F331BC0070F05F /* Debug */,
+				CB07F07D22F331BC0070F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB07F07E22F331BC0070F05F /* Build configuration list for PBXNativeTarget "HXWaterFlow-MasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB07F07F22F331BC0070F05F /* Debug */,
+				CB07F08022F331BC0070F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB07F04422F331BB0070F05F /* Project object */;
+}
